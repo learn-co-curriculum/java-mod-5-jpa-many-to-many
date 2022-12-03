@@ -14,10 +14,11 @@ students and subjects:
 Each student can take many subjects and each subject is taken by multiple students.
 
 Recall that many-to-many relationships require a join table, so we need another
-entity `STUDENT_DATA_SUBJECT` to keep track of the relationships. The updated ER model
+entity `STUDENT_DATA_SUBJECT` to keep track of the relationships. Note the
+entity has a composite primary key `(student, subject)`. The updated ER model
 that contains the new entity is shown below:
 
-![Updated many to many relationship table](https://curriculum-content.s3.amazonaws.com/6036/java-mod-5-jpa-manytomany/student_subject_jointable.png)
+![Updated many to many relationship join table](https://curriculum-content.s3.amazonaws.com/6036/java-mod-5-jpa-manytomany/student_subject_withjointable.png)
 
 ## Create Subject Entity and Define Relationship
 
