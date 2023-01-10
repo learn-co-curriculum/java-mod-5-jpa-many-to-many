@@ -66,7 +66,6 @@ public class Project {
                 ", title='" + title + '\'' +
                 ", submissionDate=" + submissionDate +
                 ", score=" + score +
-                ", student=" + student +
                 '}';
     }
 }

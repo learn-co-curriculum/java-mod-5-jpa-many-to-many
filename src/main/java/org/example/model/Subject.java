@@ -17,6 +17,7 @@ public class Subject {
 
     public void addStudent(Student student) {
         students.add(student);
+        student.addSubject(this);  //Student is owning side
     }
 
     public List<Student> getStudents() {
