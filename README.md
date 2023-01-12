@@ -31,7 +31,7 @@ one-to-many relationships with the new entity `Student_Subject`.
 However, the join table representing the `Student_Subject` entity is automatically
 created by JPA, so we only need to create the `Subject` entity class in Java and then
 define the many-to-many relationship between `Student` and `Subject` using the `@ManyToMany`
-annotation based on model defined in the original ERD:
+annotation based on the model defined in the original ERD:
 
 ![Many to many relationship table](https://curriculum-content.s3.amazonaws.com/6036/java-mod-5-jpa-manytomany/student_subject_nojointable.png)
 
