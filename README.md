@@ -374,8 +374,6 @@ subject2.addStudent(student2);
 subject3.addStudent(student2);
 ```
 
-We only need to add to one list to add the association in the database.
-
 ## Fetching Data
 
 Data fetching works exactly the same way as one-to-one and many-to-many. The
