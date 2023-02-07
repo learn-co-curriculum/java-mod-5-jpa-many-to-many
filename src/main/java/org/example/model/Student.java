@@ -6,7 +6,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table(name = "STUDENT_DATA")
 public class Student {
     @Id
     @GeneratedValue
